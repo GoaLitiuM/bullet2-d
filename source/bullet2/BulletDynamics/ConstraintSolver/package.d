@@ -1,0 +1,10 @@
+module bullet2.BulletDynamics.ConstraintSolver;
+
+public import bullet2.BulletDynamics.ConstraintSolver.btBatchedConstraints;
+public import bullet2.BulletDynamics.ConstraintSolver.btConstraintSolver;
+public import bullet2.BulletDynamics.ConstraintSolver.btContactSolverInfo;
+public import bullet2.BulletDynamics.ConstraintSolver.btSequentialImpulseConstraintSolver;
+public import bullet2.BulletDynamics.ConstraintSolver.btSequentialImpulseConstraintSolverMt;
+public import bullet2.BulletDynamics.ConstraintSolver.btSolverBody;
+public import bullet2.BulletDynamics.ConstraintSolver.btSolverConstraint;
+public import bullet2.BulletDynamics.ConstraintSolver.btTypedConstraint;

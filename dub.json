@@ -1,0 +1,31 @@
+{
+	"name": "bullet2-d",
+	"authors": [ "GoaLitiuM" ],
+	"description": "Static D bindings for Bullet Physics",
+
+	"versions": [ "BT_THREADSAFE" ],
+
+	"libs": [
+		"BulletCollision_RelWithDebugInfo", "BulletDynamics_RelWithDebugInfo", "BulletInverseDynamics_RelWithDebugInfo", "BulletSoftBody_RelWithDebugInfo", "LinearMath_RelWithDebugInfo"
+	],
+
+	"configurations": [
+		{
+			"name": "example",
+			"targetType": "executable",
+			"mainSourceFile": "examples/helloworld.d"
+		},
+		{
+			"name": "library",
+			"targetType": "library"
+		}
+	],
+
+	"buildTypes": {
+		"release": {
+			"libs": [
+				"BulletCollision", "BulletDynamics", "BulletInverseDynamics", "BulletSoftBody", "LinearMath"
+			]
+		}
+	}
+}
